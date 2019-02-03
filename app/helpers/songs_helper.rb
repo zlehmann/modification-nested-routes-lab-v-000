@@ -6,4 +6,10 @@ module SongsHelper
       hidden_field_tag "song[artist_id]", song.artist_id
     end
   end
+
+  def display_artist(song)
+  end
+
+  def artist_select(one, two)
+  end
 end
